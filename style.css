@@ -18,7 +18,6 @@
 *, 
 *::before, 
 *::after {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -56,7 +55,6 @@ img{
 
 .grid-2 {
   display: flex;
-  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   }
@@ -68,12 +66,12 @@ img{
 }
 
 .column-1 {
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 
 .column-2 {
   margin-left: 5%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   width: 120%;
 }
 
@@ -264,9 +262,6 @@ nav .container {
 }
 
 .header-content .container.grid-2{
-  grid-template-columns: 2.5fr 3.5fr;
-  min-height: calc(100vh - 6rem);
-  padding-bottom: 4rem;
   text-align: left;
 }
 
